@@ -63,3 +63,26 @@
   color: #333;
   line-height: 1.6;
 }
+
+.tab.error {
+  color: #c0392b;
+  border-color: #e0a8a0;
+}
+
+.tab.error.active {
+  color: #c0392b;
+  border-color: #c0392b;
+  border-bottom-color: #ffffff;
+}
+
+.error-message {
+  color: #c0392b;
+  background: #fdf3f2;
+  border: 1px solid #e0a8a0;
+  border-radius: 6px;
+  padding: 12px;
+  font-family: monospace;
+  font-size: 13px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
